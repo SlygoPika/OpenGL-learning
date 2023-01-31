@@ -1,3 +1,8 @@
+# Milestones
+
+3D Popcat pyramid: (Bad GIF quality, sorry)
+![](https://github.com/SlygoPika/OpenGL-learning/blob/main/CatPyramid.gif)
+
 # OpenGL-learning NOTES
 
 Bullet notes:
