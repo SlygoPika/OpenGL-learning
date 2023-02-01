@@ -53,5 +53,18 @@ VBO (Vertex Buffer Object):
     + **Error Handling:**
       - **glGetShaderiv(shader_id, PROPERTY_NAME, result_ptr)** : Gets shader property requested and outputs it onto result_ptr
       - **glGetInfoLog([...])**
-      
+
+### Docker Commands (On Windows PowerShell):
+  1. clone docker repo (recursively)
+  2. cd to repo
+  3. Set-ExecutionPolicy - scope CurrentUser Unrestricted
+  4. Launch Docker
+  5. run build_docker.ps1 (./windows/build_docker.ps1)
+  6. Set up Xlaunch
+  7. .\windows\interactive_run.ps1 ${pwd}\[...code directory...]
+  8. mkdir build
+  9. cd build
+ 10. cmake ../
+ 11. make
+ 12. ./[...file to run...]
     
