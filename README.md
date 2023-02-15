@@ -57,7 +57,7 @@ VBO (Vertex Buffer Object):
 ### Docker Commands (On Windows PowerShell):
   1. clone docker repo (recursively)
   2. cd to repo
-  3. Set-ExecutionPolicy - scope CurrentUser Unrestricted
+  3. Set-ExecutionPolicy -scope CurrentUser Unrestricted
   4. Launch Docker
   5. run build_docker.ps1 (./windows/build_docker.ps1)
   6. Set up Xlaunch
